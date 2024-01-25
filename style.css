@@ -362,6 +362,9 @@ section {
   justify-content: center;
 }
 
+.product h3{
+  padding-top: 7px;
+}
 .products .product img {
   width: 230px;
   padding-top: 6px;
@@ -572,6 +575,7 @@ button:hover {
   padding-bottom: 20px;
   flex-wrap: wrap;
 }
+
 .footer-box {
   display: flex;
   flex-direction: column;
@@ -671,8 +675,10 @@ button:hover {
     font-size: 15px;
   }
   .book-table img {
-    padding-right: 50px;
+    padding-left: 114px;
   }
+  
+  
   .header .icons div {
     font-size: 20px;
   }
@@ -714,8 +720,15 @@ button:hover {
     font-weight: 400;
     font-size: 14px;
   }
-  
+  .footer-boxex {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    background: rgb(223, 222, 222); 
+    font-size: 16px;
+  }
 }
+
 
 /*============ for mobile  ===========*/
 @media (max-width: 768px) {
@@ -939,8 +952,8 @@ button:hover {
     background-size: contain;
   }
   .book-table {
-    width: 130px;
     margin-bottom: 7px;
+    margin-right: 124px;
   }
   .booking .img-2 {
     display: none;
@@ -949,7 +962,7 @@ button:hover {
     width: 400px;
   }
   .booking img {
-    width: 30rem;
+    width: 64rem;
   }
   .products h3,
   .price {
